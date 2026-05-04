@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<RouterConfig>
+  <longMessageRules/>
+  <saps>
+    <1>
+      <mtp3Id>1</mtp3Id>
+      <opc>1</opc>
+      <ni>2</ni>
+      <stackName>MapLoadClientSccpStack</stackName>
+      <networkId>0</networkId>
+      <localGtDigits/>
+      <dpcList>
+        <1>
+          <firstDpc>2</firstDpc>
+          <lastDpc>2</lastDpc>
+          <firstSls>0</firstSls>
+          <lastSls>255</lastSls>
+          <slsMask>255</slsMask>
+        </1>
+      </dpcList>
+      <mtp3Destinations>
+        <1>
+          <firstDpc>2</firstDpc>
+          <lastDpc>2</lastDpc>
+          <firstSls>0</firstSls>
+          <lastSls>255</lastSls>
+          <slsMask>255</slsMask>
+        </1>
+      </mtp3Destinations>
+    </1>
+  </saps>
+</RouterConfig>

@@ -1,0 +1,6 @@
+*.log
+*.csv
+client/
+client_run*.log
+client.log
+log4j-client*.log
